@@ -6,10 +6,10 @@ class Control:
         self.tv = tv
         tv.setControl(self)
 
-    def getTV(self):
+    def getTv(self):
         return self.tv
 
-    def setTV(self, tv):
+    def setTv(self, tv):
         self.tv = tv
 
     def turnOn(self):

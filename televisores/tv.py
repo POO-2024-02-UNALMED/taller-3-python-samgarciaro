@@ -55,6 +55,9 @@ class TV:
 
     def getMarca(self):
         return self.marca
+    
+    def setMarca(self, marca):
+        self.marca = marca
 
     def setPrecio(self, precio):
         self.precio = precio

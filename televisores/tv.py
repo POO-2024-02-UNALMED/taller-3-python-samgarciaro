@@ -50,6 +50,9 @@ class TV:
         if self.estado and 0 <= volumen <= 7:
             self.volumen = volumen
 
+    def getVolumen(self):
+        return self.volumen
+
     def getCanal(self):
         return self.canal
 
